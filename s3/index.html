@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <title>AWS Machine Learning Experiments </title>
+</head>
+
+<body>
+    <script src="javascripts/angular.min.js"></script>
+    <script src="javascripts/aws-sdk-2.3.11.min.js"></script>
+    <div ng-app="aws-ml" ng-controller="aws-ml">
+    </div>
+	<h1>Welcome to AWS Machine Learning Experiments <h1>
+    <script>
+        var app = angular.module('aws-ml', []);
+
+        app.controller('aws-ml', ['$scope',
+            function($scope) {
+                $scope.list = [],
+            }
+        ]);
+
+    </script>
+</body>
+
+</html>

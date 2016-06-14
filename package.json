@@ -1,0 +1,26 @@
+{
+    "name": "Experiments-AWS-ML",
+    "version": "0.0.1",
+    "description": "Experiment to Build a Web Application to use AWS Machine Learning",
+    "author": "99xtechnology.com",
+    "license": "MIT",
+    "dependencies": {
+        "angular-ui-bootstrap": "^1.1.2",
+        "ppjson": "^1.3.0",
+        "roboto-font": "^0.1.0"
+    },
+    "scripts": {
+        "test": "gulp test"
+    },
+    "private": true,
+    "devDependencies": {
+        "aws-sdk": "^2.3.16",
+        "gulp-server-livereload": "^1.8.0",
+        "gulp": "~3.9.0",
+        "gulp-concat": "2.6.0",
+        "gulp-exec": "^2.1.2"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    }
+}
