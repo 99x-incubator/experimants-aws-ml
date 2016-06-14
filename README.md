@@ -11,6 +11,16 @@ To setup the project follow the following instructions by opening a command term
 
 ```
 npm install
+
+
+```
+
+* Installing gulp globally
+
+```
+npm install gulp -g
+
+
 ```
 
 * Deploying the frontend application to s3
